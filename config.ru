@@ -4,7 +4,7 @@ require 'ff-kbu_export.rb'
 
 
 set :environment, ENV['RACK_ENV'].to_sym
-set :app_file,     'ical_export.rb'
+set :app_file,     'ff-kbu_export.rb'
 disable :run
 
 log = File.new("logs/sinatra.log", "a")
